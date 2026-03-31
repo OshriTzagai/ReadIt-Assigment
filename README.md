@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# ReadIt
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+READ-IT SQLINK HOME ASSIGMENT !
+---
 
-## Get started
+## התקנה והרצה
 
-1. Install dependencies
+### דרישות מקדימות
+- Node.js 18+
+- [Expo CLI](https://docs.expo.dev/get-started/installation/): `npm install -g expo-cli`
+- אפליקציית Expo Go בטלפון **או** סימולטור Android/iOS
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### האפליקציה
 
 ```bash
-npm run reset-project
+cd ReadIt
+npm install
+npm start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+סרקו את קוד ה-QR עם Expo Go, או לחצו `a` לאנדרואיד / `i` ל-iOS.
 
-## Learn more
+### שרת ה-Auth (אופציונלי)
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+cd ReadIt/server
+npm install
+npm start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+השרת עולה על `http://localhost:3000`.
 
-## Join the community
+> האפליקציה עובדת גם בלי השרת — אם השרת פעיל היא תתחבר אליו, אחרת היא תמשיך לפעול מצד הפרונט.
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## ניהול סטייט — Redux Toolkit
+
+בחרתי ב-Redux Toolkit מכיוון שמדובר בספרייה מוכחת לניהול סטייט באפליקציות בסקייל יחסית גדול. בנוסף, זו ספרייה שאני מכיר לעומק ועבדתי איתה הרבה — מה שאפשר לי להתקדם מהר ולבנות את ה-slices (auth, feed, bookmarks) בצורה נקייה ומסודרת.
+
+---
+
+## זמן פיתוח
+כ-5 שעות.
+
+המשימה בוצעה במסגרת זמן מוגבלת ובמקביל להתחייבויות נוספות, ולכן תנאי העבודה לא היו אידיאליים. למרות זאת, התמקדתי ביצירת פתרון מלא ועובד.
+
+---
+
+## מה הייתי עושה עם יותר זמן
+
+עיצוב הוא צד שאני מאד אוהב ושם לב אליו — הייתי רוצה להשקיע יותר ולהראות את זה. בנוסף:
+
+
+---
+
+תודה על ההזדמנות, אשמח לשמוע מכם חזרה!
